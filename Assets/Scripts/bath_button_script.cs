@@ -14,6 +14,13 @@ public class bath_button_script : MonoBehaviour
         SceneManager.LoadScene(4);
         //SceneManager.LoadScene(newGameScene);
     }
+
+    public void AllClean() {
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("previousScene" + sceneNumber, currentScene);
+        SceneManager.LoadScene(9);
+        
+    }
     // Start is called before the first frame update
     void Start()
     {

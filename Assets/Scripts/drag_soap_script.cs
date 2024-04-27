@@ -13,13 +13,23 @@ public class drag_soap_script : MonoBehaviour, IPointerDownHandler, IBeginDragHa
     public wipe_soap_script wipeObj;    // references wipe_soap_script object
     private CanvasGroup canvasGroup;
 
+    public int sceneNumber;
+    [SerializeField] private string newGameScene = "All_Clean";
+
     // timer variables
-    private const float TICK_TIMER_MAX = 15f;  // number of seconds to wipe pet
+    private const float TICK_TIMER_MAX = 4f;  // number of seconds to wipe pet
     private int tick;
     private float tickTimer;
 
     private void BackToStart() {
         SceneManager.LoadScene(0);
+    }
+
+    public void AllClean() {
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("previousScene" + sceneNumber, currentScene);
+        SceneManager.LoadScene(9);
+        
     }
 
     private void Awake() {
@@ -55,7 +65,7 @@ public class drag_soap_script : MonoBehaviour, IPointerDownHandler, IBeginDragHa
         canvasGroup.blocksRaycasts = true;
         //canvasGroup.interactable = false;
         if(tickTimer >= TICK_TIMER_MAX) {
-            Invoke("BackToStart", 1);
+            Invoke("AllClean", 1);
         }
     }
     public void OnPointerDown(PointerEventData eventData) {
