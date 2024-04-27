@@ -7,12 +7,26 @@ public class play_button_script : MonoBehaviour
 {
 
     public int sceneNumber;
-    [SerializeField] private string newGameScene = "Play_Room";
+    //[SerializeField] private string newGameScene = "Play_Room";
     public void PlayButton() {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("previousScene" + sceneNumber, currentScene);
+        SceneManager.LoadScene(11);
+        
+    }
+
+    public void PlayBall() {
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("previousScene" + sceneNumber, currentScene);
         SceneManager.LoadScene(7);
-        //SceneManager.LoadScene(newGameScene);
+        
+    }
+
+    public void PlayDressUp() {
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("previousScene" + sceneNumber, currentScene);
+        SceneManager.LoadScene(10);
+        
     }
     // Start is called before the first frame update
     void Start()

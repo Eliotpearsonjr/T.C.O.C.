@@ -9,7 +9,7 @@ public class text_on_off_script : MonoBehaviour
     //[SerializeField] TextMeshProUGUI backButtonSerialize;
     //GameObject backButton;
     //public Button backButtonOptions;            // the back button in the options menu
-    public TextMeshProUGUI backButtonOptionsText;                 // corresponding text
+    public TextMeshProUGUI backButtonOptionsText;               // corresponding text
 
     public int isEnabled;
 
@@ -27,11 +27,21 @@ public class text_on_off_script : MonoBehaviour
             Debug.Log("isEnabled is now 1");
             isEnabled = 1;
             backButtonOptionsText.text = "Back";
+            // item1text.text = "Red Gingham";
+            // item2text.text = "Star Shirt";
+            // item3text.text = "Blue Polo";
+            // item4text.text = "Purple and White";
+            // item5text.text = "Sailor Uniform";
             
         } else if (isEnabled == 1) {
             Debug.Log("isEnabled is now 0");
             isEnabled = 0;
             backButtonOptionsText.text = " ";
+            // item1text.text = " ";
+            // item2text.text = " ";
+            // item3text.text = " ";
+            // item4text.text = " ";
+            // item5text.text = " ";
         
         }
         
@@ -41,6 +51,11 @@ public class text_on_off_script : MonoBehaviour
     void Start()
     {
         backButtonOptionsText.text = " ";
+        // item1text.text = " ";
+        // item2text.text = " ";
+        // item3text.text = " ";
+        // item4text.text = " ";
+        // item5text.text = " ";
     }
 
     // Update is called once per frame
