@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+// Eliot Pearson 
+// CMSC 437 - Spirng 2024
 
 public class drag_drop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
@@ -12,17 +14,20 @@ public class drag_drop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
     }
-     public void OnBeginDrag(PointerEventData eventData) {
+
+    // allow for the food item to be dragged into place
+    // functions required by each of the handlers
+    public void OnBeginDrag(PointerEventData eventData) {
         Debug.Log("OnBeginDrag");
         canvasGroup.alpha = .9f;
         canvasGroup.blocksRaycasts = false;
     }
-     public void OnDrag(PointerEventData eventData) {
+    public void OnDrag(PointerEventData eventData) {
         Debug.Log("OnDrag");
         rectTransform.anchoredPosition += eventData.delta;
         
     }
-     public void OnEndDrag(PointerEventData eventData) {
+    public void OnEndDrag(PointerEventData eventData) {
         Debug.Log("OnEndDrag");
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;

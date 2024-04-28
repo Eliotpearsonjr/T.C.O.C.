@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+// Eliot Pearson 
+// CMSC 437 - Spirng 2024
 
 public class food_script : MonoBehaviour
 {
     public int sceneNumber;
-    public Image foodImage;
-
-    [SerializeField] private string newGameScene = "Food_Melon";
 
     // when melon button is clicked
     public void EatMelon() {
@@ -26,13 +25,13 @@ public class food_script : MonoBehaviour
     }
 
     // when boba button is clicked
-
     public void EatBoba() {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("previousScene" + sceneNumber, currentScene);
         SceneManager.LoadScene(6);
     }
 
+    // when corn button is clicked
     public void EatCorn() {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("previousScene" + sceneNumber, currentScene);

@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+// Eliot Pearson 
+// CMSC 437 - Spirng 2024
 
 public class touch_manager_script : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     private PlayerInput playerInput;
 
-    //private InputAction touchPositionAction:
     private InputAction touchPressAction;
     private void Awake() {
         playerInput = GetComponent<PlayerInput>();

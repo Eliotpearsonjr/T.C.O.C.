@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+// Eliot Pearson 
+// CMSC 437 - Spirng 2024
 
 public class back_button_script : MonoBehaviour
 {
-    // Start is called before the first frame update
-    //[SerializeField] private string newGameScene = "Game";
     
-    int sceneIndex;
+    int sceneIndex;             // accesses scene 0 for the home screen
     int sceneToOpen;
     void Start()
     {
@@ -26,6 +26,7 @@ public class back_button_script : MonoBehaviour
         
     }
 
+    // home screen
     public void BackButton() {
         SceneManager.LoadScene(0);
     }

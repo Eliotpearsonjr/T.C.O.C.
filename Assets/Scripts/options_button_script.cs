@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+// Eliot Pearson 
+// CMSC 437 - Spirng 2024
 
 public class options_button_script : MonoBehaviour
 {
-    // Start is called before the first frame update
     public int sceneNumber;
-    [SerializeField] private string newGameScene = "Options";
+
+    // loads the options menu
     public void OptionsButton() {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("previousScene" + sceneNumber, currentScene);

@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+// Eliot Pearson 
+// CMSC 437 - Spirng 2024
 public class scroll_script : MonoBehaviour
 {
     [SerializeField] private RawImage image;
