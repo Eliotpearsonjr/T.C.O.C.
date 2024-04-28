@@ -34,32 +34,32 @@ This secttion details the numerous sources and tutorials that were instrumental 
 of this project. Below are links to videos as well as webpages and citations. These sources
 are not organized in any particular way
 
-Installing .apk files on Android device: 
-https://www.youtube.com/watch?v=JVEbeeIvQvk
+* Installing .apk files on Android device: 
+  https://www.youtube.com/watch?v=JVEbeeIvQvk
+  
+* Connecting Unity to remote Android device:
+  https://www.youtube.com/watch?v=CGleQZVgdN4&t=371s
 
-Connecting Unity to remote Android device:
-https://www.youtube.com/watch?v=CGleQZVgdN4&t=371s
-
-Developmental Videos and Tutorials:
-Bouncy Ball Physics - https://youtu.be/hKGzSYXPQwY?si=lqmF3KA50uMfBsJj
-Connecting Scripts - https://youtu.be/2pCkInvkwZ0?si=KUt9hok09kZo0JIQ
-Drag and Drop Functionality - https://youtu.be/BGr-7GZJNXg?si=iuH_ODkA_0bF8cjH
-Background Movement - https://youtu.be/-6H-uYh80vc?si=kEUN316a0170hlnW
-Linking Unity Hub with Visual Studio - https://youtu.be/X8Qr78Vs0Ss?si=8DC7zLGtXdlFA4Ip
-Basic UI devlopment - https://youtu.be/DX7HyN7oJjE?si=pc4XKEX2ExH8F3pO
-Adding sound effects - https://youtu.be/mvaUho_a-q4?si=G-5gVKme9SGT0DSd
-Free sound effects used game - https://mixkit.co/free-sound-effects/happy/
-                          Fairy arcade sparkle
-                          Fairy cartoon success voice
-Building and exporting unity project - https://www.youtube.com/watch?v=RIYIcAcS5IA
-Loading images in script - https://forum.unity.com/threads/load-images-from-c-code-and-show-in-ui.622558/
-Disabling/Enabling TextMeshPro -  https://discussions.unity.com/t/disabling-enabling-ui-text/136217/2
-                                  https://forum.unity.com/threads/how-can-you-enable-disable-textmeshpro-text-in-a-script.678919/
-Touchscreen InputSystem - https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/Touch.html
-Checking overlapping object - https://forum.unity.com/threads/how-can-i-make-a-ui-object-being-dragged-appear-on-top-of-all-other-ui-objects.345477/
-Unity Scripting API Documentation - https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/api/index.html
-Unity Scripting API RectTransform - https://docs.unity3d.com/ScriptReference/RectTransform.html
-Free Readex Pro Text Download - https://fonts.google.com/specimen/Readex+Pro?preview.text=Options
+* Developmental Videos and Tutorials:
+* Bouncy Ball Physics - https://youtu.be/hKGzSYXPQwY?si=lqmF3KA50uMfBsJj
+* Connecting Scripts - https://youtu.be/2pCkInvkwZ0?si=KUt9hok09kZo0JIQ
+* Drag and Drop Functionality - https://youtu.be/BGr-7GZJNXg?si=iuH_ODkA_0bF8cjH
+* Background Movement - https://youtu.be/-6H-uYh80vc?si=kEUN316a0170hlnW
+* Linking Unity Hub with Visual Studio - https://youtu.be/X8Qr78Vs0Ss?si=8DC7zLGtXdlFA4Ip
+* Basic UI devlopment - https://youtu.be/DX7HyN7oJjE?si=pc4XKEX2ExH8F3pO
+* Adding sound effects - https://youtu.be/mvaUho_a-q4?si=G-5gVKme9SGT0DSd
+* Free sound effects used game - https://mixkit.co/free-sound-effects/happy/
+  Fairy arcade sparkle
+  Fairy cartoon success voice
+* Building and exporting unity project - https://www.youtube.com/watch?v=RIYIcAcS5IA
+* Loading images in script - https://forum.unity.com/threads/load-images-from-c-code-and-show-in-ui.622558/
+* Disabling/Enabling TextMeshPro -  https://discussions.unity.com/t/disabling-enabling-ui-text/136217/2
+  https://forum.unity.com/threads/how-can-you-enable-disable-textmeshpro-text-in-a-script.678919/
+* Touchscreen InputSystem - https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/Touch.html
+* Checking overlapping object - https://forum.unity.com/threads/how-can-i-make-a-ui-object-being-dragged-appear-on-top-of-all-other-ui-objects.345477/
+* Unity Scripting API Documentation - https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/api/index.html
+* Unity Scripting API RectTransform - https://docs.unity3d.com/ScriptReference/RectTransform.html
+* Free Readex Pro Text Download - https://fonts.google.com/specimen/Readex+Pro?preview.text=Options
 
                   
 
